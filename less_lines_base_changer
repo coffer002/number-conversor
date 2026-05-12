@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int baseOrigem, baseDestino, num, buf, buf2, decimal, exp, resultado, multiplicador, continuar = 2;
+    while (continuar > 0 && continuar <= 2) {
+        decimal = 0, exp = 0, resultado = 0, multiplicador = 1;
+        if (continuar == 2) {
+            printf("Digite a base de origem: ");
+            scanf("%d", &baseOrigem);
+            while (baseOrigem != 2 && baseOrigem != 4 && baseOrigem != 8 && baseOrigem != 10) {
+                printf("\nBase invalida! Apenas 2, 4, 8 e 10.\n");
+                printf("Digite novamente: ");
+                scanf("%d", &baseOrigem);}
+            printf("Digite o numero na base %d: ", baseOrigem);
+            scanf("%d", &num);
+            buf = num;
+            while (buf > 0) {
+                buf2 = buf % 10;
+                if (buf2 >= baseOrigem) {
+                    printf("\nNumero invalido para essa base!\n");
+                    return 0;}
+                buf /= 10;}}                
+        buf = num;
+        while (buf > 0) {
+            buf2 = buf % 10;
+            decimal += buf2 * (int)pow(baseOrigem, exp);
+            buf /= 10;
+            exp++;}
+        printf("Digite a base destino: ");
+        scanf("%d", &baseDestino);
+        while (baseDestino != 2 && baseDestino != 4 && baseDestino != 8 && baseDestino != 10) {
+            printf("\nBase invalida! Apenas 2, 4, 8 e 10.\n");
+            printf("Digite novamente: ");
+            scanf("%d", &baseDestino);}
+        if (baseDestino == 10) {
+            resultado = decimal;            
+        } else {
+            while (decimal > 0) {
+                resultado += (decimal % baseDestino) * multiplicador;
+                decimal /= baseDestino;
+                multiplicador *= 10;}}                
+        printf("Resultado na base %d: %d\n", baseDestino, resultado);
+        num = resultado;
+        baseOrigem = baseDestino;
+   		printf("\nEscolha uma opcao:  (0) Fechar  (1) Continuar valor atual  (2) Novo valor\n");
+        scanf("%d", &continuar);
+        printf("\n");}
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdeus.\n");
+    return 0;}
