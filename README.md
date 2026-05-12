@@ -1,6 +1,6 @@
 # Algoritmo de Troca de Bases Numéricas
 
-Primeiro projeto da disciplina de Algoritmos e Programação de Computadores do curso de Engenharia Química da :contentReference[oaicite:0]{index=0}.
+Primeiro projeto da disciplina de Algoritmos e Programação de Computadores do curso de Engenharia Química da UEM.
 
 ## Descrição
 
@@ -24,7 +24,7 @@ Este projeto tem como objetivo realizar a conversão entre bases numéricas 2, 4
 
 # Numerical Base Conversion Algorithm
 
-First project for the Algorithms and Computer Programming course in Chemical Engineering at :contentReference[oaicite:1]{index=1}.
+First project for the Algorithms and Computer Programming course in Chemical Engineering at UEM.
 
 ## Description
 
