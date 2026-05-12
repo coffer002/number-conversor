@@ -14,6 +14,9 @@ Este projeto tem como objetivo realizar a conversão entre bases numéricas 2, 4
 
 ---
 
+<br><br><br>
+
+---
 
 # Numerical Base Conversion Algorithm
 
