@@ -35,3 +35,8 @@ This project aims to perform numerical base conversions between bases 2, 4, 8, a
 - C Language
 - Programming Logic
 - Conditional and Loop Structures
+=======
+# number-conversor
+#College project no.1
+
+A number converter calculator between bases 2, 4, 8 and 10
