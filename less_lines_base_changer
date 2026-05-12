@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-
 int main() {
     int baseOrigem, baseDestino, num, buf, buf2, decimal, exp, resultado, multiplicador, continuar = 2;
     while (continuar > 0 && continuar <= 2) {
