@@ -12,14 +12,7 @@ Este projeto tem como objetivo realizar a conversão entre bases numéricas 2, 4
 - Lógica de Programação
 - Estruturas Condicionais e de Repetição
 
-
-
-
-
 ---
-
-
-
 
 
 # Numerical Base Conversion Algorithm
@@ -35,8 +28,3 @@ This project aims to perform numerical base conversions between bases 2, 4, 8, a
 - C Language
 - Programming Logic
 - Conditional and Loop Structures
-=======
-# number-conversor
-#College project no.1
-
-A number converter calculator between bases 2, 4, 8 and 10
