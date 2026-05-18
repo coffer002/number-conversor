@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-
 int main() {
     int baseOrigem, baseDestino, num, buf, buf2, decimal, exp, resultado, multiplicador, continuar = 2;
-
     while (continuar > 0 && continuar <= 2) {
         decimal = 0;
         exp = 0;
@@ -30,7 +28,6 @@ int main() {
                 if (buf2 >= baseOrigem) {
                     printf("\nNumero invalido para essa base!\n");
                     return 0;}
-
                 buf /= 10;}}
                 
         buf = num;
@@ -40,7 +37,6 @@ int main() {
             buf /= 10;
             exp++;}
 
-        printf("\nValor em decimal: %d\n", decimal);
         printf("Digite a base destino: ");
         scanf("%d", &baseDestino);
 
@@ -49,14 +45,10 @@ int main() {
             printf("Digite novamente: ");
             scanf("%d", &baseDestino);}
 
-        if (baseDestino == 10) {
-            resultado = decimal;
-            
-        } else {
-            while (decimal > 0) {
-                resultado += (decimal % baseDestino) * multiplicador;
-                decimal /= baseDestino;
-                multiplicador *= 10;}}
+        while (decimal > 0) {
+            resultado += (decimal % baseDestino) * multiplicador;
+            decimal /= baseDestino;
+            multiplicador *= 10;}}
                 
         printf("Resultado na base %d: %d\n", baseDestino, resultado);
         num = resultado;
@@ -67,5 +59,4 @@ int main() {
 
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdeus.\n");
 
-    return 0;
-}
+    return 0;}
