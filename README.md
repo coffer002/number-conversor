@@ -4,7 +4,7 @@ Primeiro projeto da disciplina de Algoritmos e Programação de Computadores do 
 
 ## Descrição
 
-Este projeto tem como objetivo realizar a conversão entre bases numéricas 2, 4, 8 e 10, aplicando conceitos fundamentais de lógica de programação e algoritmos computacionais.
+Este projeto tem como objetivo realizar a conversão entre bases numéricas 2, 8 e 10, aplicando conceitos fundamentais de lógica de programação e algoritmos computacionais.
 
 ## Tecnologias Utilizadas
 
@@ -24,7 +24,7 @@ First project for the Algorithms and Computer Programming course in Chemical Eng
 
 ## Description
 
-This project aims to perform numerical base conversions between bases 2, 4, 8, and 10, applying fundamental concepts of programming logic and computational algorithms.
+This project aims to perform numerical base conversions between bases 2, 8, and 10, applying fundamental concepts of programming logic and computational algorithms.
 
 ## Technologies Used
 
